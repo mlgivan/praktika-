@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+		<html lang="ru">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Кино-театр</title>
+			<link href="https://fonts.googleapis.com/css?family=Alegreya:400,700&amp;subset=cyrillic" rel="stylesheet">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="css/animate.css">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+
+			<link rel="shortcut icon" href="assets/1.png" type="assets/png">
+		</head>
+		<body>
+			<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+			
+			<div class="conteiner smenu"><a href="../rating/index.html">Рейтинг</a></div> 
+			</div>
+			
+			<header id="header" class="header">
+			
+				<div class="container" >
+					<div class="row">
+						<div class="col-lg-3">
+							<img src="assets/1.png" alt="logo" class="logo animated fadeInLeft">
+
+						</div>
+						<div class="col-lg-2 ml-auto">
+							<nav>
+								<ul class="menu d-flex justify-content-center animated fadeInRight">
+									<li class="menu__item">
+										<a href="../index.html">Обзоры </a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="offer animated fadeIn">
+								<h1 class="offer__title">
+									Помощь
+								</h1>
+								<div class="offer__intro">
+									Помощь с решением технических проблемм
+								</div>
+								<p class="offer__text">
+									Информация взята из проверенных источников.
+								</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</header>
+				<section id="rating" class="rating">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="title animated zoomIn">
+									<h2 class="title__main">
+										Популярные проблемы
+									</h2>
+									<p class="title__text">
+										нниже указаны проблемы и как их решить
+									</p>
+									<hr>
+								</div>
+							</div>
+							<div class="menu__item animated zoomIn" id="js">
+								<button v-on:click="show = !show" type="submit" class="form__btn" required>Скрыть/Показать	</button>
+							<p v-if="show">Программы для обеспечения безопасности.
+Некоторые программы обеспечения безопасности в Интернете (в том числе антивирусы и антишпионские программы, межсетевые экраны, программы обеспечения приватности и др.) могут определять и блокировать определенные изображения, как веб-жучки, или могут блокировать анимацию изображений. Проверьте настройки вашей программы обеспечения безопасности в Интернете, чтобы убедиться, что она позволяет загружать изображения.</p>
+							<p v-else>Проблемма отображения изображений (нажмите на показать, чтобы отобразить текст)</p>
+							<hr>
+
+						</div>
+					</div>
+				</section>
+				<section id="adds" class="adds">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="title">
+									<h2 class="title__main">
+										Подписка на рассылку 
+									</h2>
+									<p class="title__text">
+										Оставайтесь с нами 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-10 m-auto">
+								<form action="#" class="form">
+									<input type="email" placeholder="Введите свою почту для подписки" class="form__input" required>
+									<button type="submit" class="form__btn">Подписаться</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+							<script src="js/main.js"></script>	
+				<footer id="footer" class="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="credits">
+									Вся информация взята из открытых источников
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+		</body>
+</html>		

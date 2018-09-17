@@ -1,0 +1,150 @@
+body{
+    font-family: 'Alegreya', serif;
+}
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+
+h1, h2, h3{
+font-weight: 700;
+}
+h3{
+font-weight: 400;
+}
+h2{
+    text-align: center;
+}
+.title{
+    padding-top: 100px;
+    text-align: center;
+}
+.title__main{
+font-size: 32px;
+}
+.title__text{
+font-size: 20px;
+}
+/* */
+.adds{
+    background: #FFA500;
+}
+
+.header{
+    background: #00FFFF;
+    color: #010101;
+    padding-top: 50px;
+}
+.menu{
+
+}
+
+.menu__item{
+
+}
+
+.menu__item a{
+font-size: 22px;
+font-weight: 700;
+color:#000;
+transition: all 0.3s ease;
+}
+.menu__item a:hover{
+text-decoration: none;
+color:#FF4500;
+}
+.offer__title{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+p, div, a, span{
+    line-height: 1.6em;
+
+}
+.offer__text{
+    font-size: 16px;
+    margin-bottom: 20px
+}
+.offer__intro{
+    font-size: 20px;
+    line-height: 1.3em;
+}
+.offer{
+    margin-top: 117px;
+}
+.squad{
+    display: block;
+    margin: 60px auto;
+}
+/* */
+.form{
+text-align: center;
+}
+.form__input{
+background: #fff;
+font-size: 16px;
+font-family: 'Alegreya', serif;
+border-radius: 5px;
+width: 580px;
+padding: 14px 0;
+margin-right: 20px;
+border:0;
+padding-left: 23px;
+outline: none;
+}
+.form__btn{
+font-family: 'Alegreya', serif;
+background: #FF4500;
+color: #010101;
+text-transform: uppercase;
+font-size: 16px;
+font-weight: 700;
+border-radius: 5px;
+width: 126px;
+border:0;
+padding: 15px 0;
+cursor: pointer;
+outline: none;
+}
+/* */
+.footer{
+    background: #FFA500;
+    padding: 50px 0 94px;
+}
+.credits{
+    color:#010101;
+    font-size: 16px;
+    text-align:center;
+    width: 184px;
+    margin: 0 auto;
+}
+/**/
+.offer{
+    text-align: center;
+}
+.form__input{
+    margin-right: 0;
+    width: 100%;
+}
+/**/
+.smenu{
+
+    color:#010101;
+    position: fixed;
+    margin-top: 20%;
+    background: #FF4500;
+    padding: 5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 15px;
+}
+.smenu :hover{
+    
+text-decoration: none;
+color:#fff;
+font-size: 22px;
+}
